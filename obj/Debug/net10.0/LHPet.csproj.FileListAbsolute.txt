@@ -95,3 +95,4 @@ C:\Users\rodrigo.bezerra\Desktop\SENAI\12\ControleClientes_VSCode_Pronto\LHPet\o
 C:\Users\rodrigo.bezerra\Desktop\SENAI\12\ControleClientes_VSCode_Pronto\LHPet\obj\Debug\net10.0\LHPet.pdb
 C:\Users\rodrigo.bezerra\Desktop\SENAI\12\ControleClientes_VSCode_Pronto\LHPet\obj\Debug\net10.0\LHPet.genruntimeconfig.cache
 C:\Users\rodrigo.bezerra\Desktop\SENAI\12\ControleClientes_VSCode_Pronto\LHPet\obj\Debug\net10.0\ref\LHPet.dll
+C:\Users\rodrigo.bezerra\Desktop\SENAI\12\ControleClientes_VSCode_Pronto\LHPet\obj\Debug\net10.0\LHPet.sourcelink.json

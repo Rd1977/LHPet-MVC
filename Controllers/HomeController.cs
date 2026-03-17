@@ -18,7 +18,7 @@ namespace LHPet.Controllers
             List<Cliente> clientes = new List<Cliente>()
             {
                 new Cliente(1, "Arthur A. Ferreira", "857.032.950-41", "arthur@senai.br", "Madruga"),
-                new Cliente(2, "Bill Gates", "039.618.250-09", "bill@microsoft.com", "Bug"),
+                new Cliente(2, "Bill Gates", "039.618.250-09", "bill@microsoft.com", "Caramelo"),
                 new Cliente(3, "Ada Lovelace", "800.777.920-50", "ada@ada.com", "Byron")
             };
 
@@ -29,8 +29,8 @@ namespace LHPet.Controllers
                 new Fornecedor(3, "BootsPet INC", "40.810.224/0001-83", "boots@pet.com")
             };
 
-            ViewBag.Clientes = clientes;
-            ViewBag.Fornecedores = fornecedores;
+            ViewBag.ListaClientes = clientes;
+            ViewBag.ListaFornecedores = fornecedores;
 
             return View();
         }
