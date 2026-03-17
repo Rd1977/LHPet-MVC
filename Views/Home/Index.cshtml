@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "LH-Pet";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Sistema LH-Pet</h1>
+
+    <h2>Clientes</h2>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th>Email</th>
+                <th>Paciente</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in ViewBag.Clientes)
+            {
+                <tr>
+                    <td>@c.Id</td>
+                    <td>@c.Nome</td>
+                    <td>@c.Cpf</td>
+                    <td>@c.Email</td>
+                    <td>@c.Paciente</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h2>Fornecedores</h2>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>CNPJ</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var f in ViewBag.Fornecedores)
+            {
+                <tr>
+                    <td>@f.Id</td>
+                    <td>@f.Nome</td>
+                    <td>@f.Cnpj</td>
+                    <td>@f.Email</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
